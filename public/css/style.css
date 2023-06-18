@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    background-image:url(/images/messi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins';
+    width: 100%;
+    margin: 0%;
+}
+
+h1{
+    font-size: 40px;
+    color: white;
+    margin-left: 30px;
+}
+
+h2{
+    font-size: 20px;
+    color: white;
+    margin-left: 30px;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+ 
+}
+
+#logo {
+    width: 150px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+   
+}
+
+.top-bar {
+    background-color: #8a0414;
+    opacity: .7;
+    width: 100%;
+    border-bottom: 2px solid lightgray;
+}
+
+header nav {
+    font-size: 20px;
+    text-align: right;
+    display:inline-block;
+    width:60%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+    margin-left: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+   
+    color: white;
+  }
+  
+li a {
+    display: block;
+    color: #ffffff;
+    padding: 10px 10px;
+    margin: 0 20px;
+    text-decoration: none;
+  }
+
+.cool-link {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #ffffff;
+    transition: width .7s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+  
+#contenedor {
+width: 300px;
+  }
+
+.current {
+    border: 1px solid #053d65;
+    background-color: #053d65;
+
+  }
+#contenedor-texto {
+    width: 500px;
+    margin-left: 30px;
+    margin-right: 100px;
+}
+
+#gallery {
+display: flex;  
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-left: 100px;
+}
+
+
+  

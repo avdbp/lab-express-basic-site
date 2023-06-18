@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    background-image:url(/images/messi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins';
+    width: 100%;
+    margin: 0%;
+}
+
+h1{
+    font-size: 40px;
+    color: white;
+}
+
+h2{
+    font-size: 20px;
+    color: white;
+}
+
+p {
+    color: white;
+ 
+}
+
+#logo {
+    width: 150px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+   
+}
+
+.top-bar {
+    background-color: #0a3f8e;
+    opacity: .6;
+    width: 100%;
+    border-bottom: 2px solid lightgray;
+}
+
+header nav {
+    font-size: 20px;
+    text-align: right;
+    display:inline-block;
+    width:60%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+    margin-left: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #0a3f8e;
+    color: white;
+  }
+  
+li a {
+    display: block;
+    color: #ffffff;
+    padding: 12px 12px;
+    text-decoration: none;
+  }
+li a:hover {
+    background-color: #749fbd;
+    color: rgb(0, 0, 0);
+  }
+  
+  
